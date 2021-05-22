@@ -1,0 +1,24 @@
+main{
+    display:flex;
+    justify-content: center;
+}
+main section:first-child{
+    height: 400px;
+    width: 400px;
+    background-color: inherit;
+    margin: 30px;
+    border: 2px solid black;
+}
+main section:last-child{
+    height: 200px;
+    width: 350px;
+    margin-top: 100px;
+}
+form input{
+    margin:15px auto;
+    display: block;
+}
+form input[type="button"]{
+    padding: 10px;
+    font-size: 1em;
+}

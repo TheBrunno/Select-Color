@@ -1,0 +1,29 @@
+header{
+    margin: 20px 0;
+    text-align:center;
+}
+header > h1{
+    font-size: 55px;
+}
+nav{
+    background-color: lightgrey;
+}
+nav > ul{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style:none;
+    display:flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 0 50px;
+    width: 95%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+nav ul > li{
+    padding: 15px;
+    transition: 0.5s;
+}
+nav ul > li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
